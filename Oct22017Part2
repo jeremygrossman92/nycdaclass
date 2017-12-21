@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oct. 2, 2017 – #2</title>
+</head>
+<body>
+
+<h1></h1>
+
+<p id="subtitle"></p>
+
+Username:
+<input type="text" name="num2" id="username">
+<br>
+
+Password:
+<input type="password" name="num3" id="password">
+<br>
+
+First Name:
+<input type="text" name="num4" id="firstname">
+<br>
+
+Last Name:
+<input type="text" name="num5" id="lastname">
+<br>
+
+Comment:
+<input type="text" name="num6" id="comment">
+
+<br>
+<br>
+
+<button id="submit">Submit</button>
+
+<br>
+<br>
+
+Date: <span id="date"></span>
+<br>
+Username: <span id="username2"></span>
+<br>
+Password: <span id="password2"></span>
+<br>
+First Name: <span id="firstname2"></span>
+<br>
+Last Name: <span id="lastname2"></span>
+<br>
+Comment: <span id="comment2"></span>
+
+<script type="text/javascript" src="Oct22017Part2.js">
+</script>
+
+
+</body>
+</html

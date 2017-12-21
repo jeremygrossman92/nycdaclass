@@ -1,0 +1,33 @@
+#box1{
+	background: linear-gradient(red, blue, yellow);
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	animation: move-around 3s;
+	}
+
+#box2{
+	position: absolute;
+	left: 400px;
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(blue, green);
+	border-radius: 50%;
+	animation: move-around 6s infinite;
+}
+
+body{
+    background-image: url("nightsky.jpg");
+}
+
+@keyframes move-around{
+	0%{
+		top: 0px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		top: 300px;
+	}
+}

@@ -1,0 +1,22 @@
+h1{
+	color: darkgreen;
+	font-family: georgia;
+}
+
+h4{
+	font-family: georgia;
+}
+
+#hello{
+	color: red;
+}
+
+
+img{
+	float: left;
+	padding-right: 20px;
+}
+
+body{
+	font-family: georgia;
+}

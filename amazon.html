@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Amazon Online</title>
+</head>
+<body>
+
+<h1>My Amazon Online</h1>
+
+<div>
+Kindle Fire HD 7 ($49.99): <input type="radio" name="electronic" id="kindle7">
+Kindle Fire HD 8 ($79.99): <input type="radio" name="electronic" id="kindle8">
+Kindle Fire HD 10 ($149.99): <input type="radio" name="electronic" id="kindle10">
+</div>
+
+<div>
+HTML Design book ($15.99): <input type="checkbox" name="html" id="html">
+CSS Cook book ($22.99): <input type="checkbox" name="cook" id="cook">
+jQuery Is Fun book ($25.99): <input type="checkbox" name="jQuery" id="jQuery">
+
+
+<div>
+<button id="btn">Submit</button>
+</div>
+
+<hr>
+
+<p>Your Bill:</p>
+
+<span id="items"></span>
+<span id="totalCost"></span>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script type="text/javascript" src="amazon.js"></script>
+</body>
+</html>

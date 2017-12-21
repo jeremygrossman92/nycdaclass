@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Store</title>
+    			<link rel="stylesheet" type="text/css" href="onlinestore.css">
+</head>
+<body>
+
+<body style="background-color:green;">
+
+<center><h1><font face="apple chancery">Online Store</font></h1></center>
+
+<div>
+<p>First Name: <input type="text" name="firstName" id="firstName"></p>
+<p>Last Name: <input type="text" name="lastName" id="lastName"></p>
+<p>Address: <input type="text" name="address" id="address"></p>
+</div>
+
+<p>Pants:</p>
+<select id="size">
+	<option>small</option>
+	<option>medium</option>
+	<option>large</option>
+</select>
+
+<p>Color:</p>
+<select id="color">
+	<option>black</option>
+	<option>gray</option>
+	<option>white</option>
+</select>
+
+<p><div>UPS<input type="checkbox" name="ups" id="ups"></div></p>
+<p><div>FedEx<input type="checkbox" name="fedex" id="fedex"></div></p>
+<p><div>USPS<input type="checkbox" name="usps" id="usps"></div></p>
+
+<p>Price: $45</p>
+
+<div>
+<button id="openModal">Submit</button>
+</div>
+
+<div class="modal-wrapper">
+	<div class="modal">
+		<div class="modal-header">
+			<button class="btn js-modal-close">X</button>
+		</div>
+		<div class="modal-content">
+		<center><i><h3><font face="apple chancery">Receipt</font></h3></i></center>
+		<span class="fullName"></span><br>
+		<span class="address"></span><br><br>
+		Your order was:<br>A <span class="pants"></span><br>
+		Charge: $45<br><br>
+		Thank you for your order. Expect delivery in 2-3 days by <span class="delivery"></span><br>
+		<button class="js-modal-close">Close</button>
+		</div>
+	</div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script type="text/javascript" src="onlinestore.js"></script>
+</body>
+</html>

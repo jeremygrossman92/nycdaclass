@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modals</title>
+		<link rel="stylesheet" type="text/css" href="requesttranscript.css">
+</head>
+<body>
+
+<h1>Request Transcript</h1>
+
+<div>First Name: <input type="text" name="firstName" id="firstName"></div>
+<div>Last Name: <input type="text" name="lastName" id="lastName"></div>
+<div>Address: <input type="text" name="address" id="address"></div>
+<div>Major: <input type="text" name="major" id="major"></div>
+<div>Degree Received: <input type="text" name="degreeReceived" id="degreeReceived"></div>
+<div>Year of Completion: <input type="text" name="yearOfCompletion" id="yearOfCompletion"></div>
+
+
+<button id="openModal">Submit</button>
+
+<div class="modal-wrapper">
+	<div class="modal">
+		<div class="modal-header">
+			<button class="btn js-modal-close">X</button>
+		</div>
+		<div class="modal-content">
+		<h3>Thank You</h3>
+		<span class="fullName"></span><br>
+		<span class="address"></span><br><br>
+		Major: <span class="major"></span><br>
+		Degree Received: <span class="degree"></span><br>
+		Year of Completion: <span class="year"></span><br>
+		<p>Your request for your transcript submitted. Expect to receive it in 7 - 10 business days.</p>
+		<button class="js-modal-close">Close</button>
+		</div>
+	</div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="requesttranscript.js"></script>
+</body>
+</html>

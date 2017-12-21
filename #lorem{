@@ -1,0 +1,9 @@
+#lorem{
+	width: 600px;
+	height: 600px;
+	border: 2px solid black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black;
+	background-color: #dddddd;
+	padding: 20px
+}

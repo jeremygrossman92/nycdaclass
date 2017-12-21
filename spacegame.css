@@ -1,0 +1,47 @@
+body{
+    background-image: url("nightsky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box1{
+	width: 700px;	
+	height: 400px;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	background-image: url("spaceship2.png");
+	top: 600px;
+	margin: 20% 40% 20% 40%;
+}
+
+#box2{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(blue, green);
+	border-radius: 50%;
+	animation: move-around 6s infinite;
+}
+
+/*#earth{
+	width: 1100px;
+	height: 1100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url("earth.png");
+	margin: 0% 100% 0% 40%;
+}*/
+
+@keyframes move-around{
+	0%{
+		top: 0px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		top: 300px;
+	}
+}

@@ -1,0 +1,53 @@
+.box1{
+	background-color: blue;
+	width: 400px;
+	height: 400px;
+	left: 400;
+	top: 400px;
+	}
+
+.box2{
+	background-color: pink;
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	}
+
+.box3{
+	background-color: yellow;
+	width: 600px;
+	height: 400px;
+	}
+
+.box4{
+	background-color: red;
+	font-family: Comic Sans MS;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+.box5{
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 300px;
+}
+
+.box6{
+	background-color: yellow;
+	font-family: Comic Sans MS;
+	width: 200px;
+	height: 600px;
+	position: fixed;
+}
+
+.box7{
+	background-color: green;
+	font-family: Webdings;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 100px;
+}

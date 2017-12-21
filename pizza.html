@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Domino's</title>
+</head>
+<body>
+
+<body style="background-color:powderblue;">
+
+<h1>Order Pizza Online</h1>
+
+<h2>Select Pizza Slice:</h2>
+<div>
+Name: <input type="text" name="name" id="name">
+<br>
+<br>
+Large ($13.99): <input type="radio" name="size" id="large">
+Medium ($11.99): <input type="radio" name="size" id="medium">
+Small ($9.99): <input type="radio" name="size" id="small">
+</div>
+
+<h2>Select Toppings:</h2>
+<div>
+Pepperoni ($1.99): <input type="checkbox" name="pepperoni" id="pepperoni">
+Sausage ($1.99): <input type="checkbox" name="sausage" id="sausage">
+Mushroom ($1.99): <input type="checkbox" name="mushroom" id="mushroom">
+
+<br>
+<br>
+
+<h2>Select Your Free Soda:</h2>
+<select id="soda">
+	<option>Coke</option>
+	<option>Diet Coke</option>
+	<option>Sprite</option>
+</select>
+
+<br>
+<br>
+
+<div>
+<button id="btn">Submit</button>
+</div>
+
+<hr>
+
+<p>Here is your receipt:</p>
+
+<span id="items"></span>
+<span id="totalCost"></span>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script type="text/javascript" src="pizza.js"></script>
+</body>
+</html>

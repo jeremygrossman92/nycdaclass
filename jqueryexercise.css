@@ -1,0 +1,32 @@
+#cat1{
+	width: 350px;
+	height: 250px;
+	padding-left;
+}
+
+#cat2{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+}
+
+#cat3{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: 100px;
+}
+
+p {
+    font-family: "Comic Sans MS";
+}
+
+#crazyaboutcats{
+	color: blue;
+	position: relative;
+}
+
+#learnaboutcats{
+	color: black;
+	position: relative;
+}

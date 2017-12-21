@@ -1,0 +1,13 @@
+#box {
+	width: 200px;
+	background-color: green;
+    height: 180px;
+
+}
+
+#circle {
+	background-color: blue;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	}

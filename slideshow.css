@@ -1,0 +1,24 @@
+.box{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	color: white;
+	display: inline-block;
+}
+
+.black{
+/*	background-color: black;
+*/}
+
+.red{
+/*	background-color: red;
+*/}
+
+.green{
+/*	background-color: green;
+*/}
+
+img{
+	width: 500px;
+	height: 500px;
+}
